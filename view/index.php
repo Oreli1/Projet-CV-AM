@@ -6,21 +6,20 @@
     <meta charset="utf-8">
     <title>@M Developper & Webdesigner</title>
     <!-- SEO -->
-<meta name="title" content="@M Developper & Webdesigner">
-<meta name="description" content="@M Developper & Webdesigner">
+    <meta name="title" content="@M Developper & Webdesigner">
+    <meta name="description" content="@M Developper & Webdesigner">
 
-<!-- font awesome -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 
-<!-- CSS Bootstrap -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
-<!-- CSS JQuery UI-->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css">
-<!-- CSS fancybox-->
-<link rel="stylesheet" href="/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
-<!-- mon CSS -->
-<link rel="stylesheet" href="css/style.css">
-
+    <!-- CSS Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <!-- CSS JQuery UI-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css">
+    <!-- CSS fancybox-->
+    <link rel="stylesheet" href="/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+    <!-- mon CSS -->
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <nav>
