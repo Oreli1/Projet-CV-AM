@@ -22,32 +22,32 @@
 
   </head>
   <body>
+<div id="opacity">
+  <div id="bgi">
     <nav>
-      <article class="logo">
-        <span id="logo1">@</span><span id="logo2">M</span>
+      <span id="logo1">@</span><span id="logo2">M</span>
         <div class="dropdown">
           <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="fa fa-bars" aria-hidden="true"></i>
           </button>
           <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-            <button class="dropdown-item" type="button"><a href="#itSkills">IT Skills</a></button>
-            <button class="dropdown-item" type="button"><a href="#Professional">Professional</a></button>
-            <button class="dropdown-item" type="button"><a href="#Portfolio">Portfolio</a></button>
-            <button class="dropdown-item" type="button"><a href="#Contact">Contact</a></button>
+            <button class="dropdown-item" type="button"><a href="index.php#itSkills">IT Skills</a></button>
+            <button class="dropdown-item" type="button"><a href="index.php#Professional">Professional</a></button>
+            <button class="dropdown-item" type="button"><a href="index.php#Portfolio">Portfolio</a></button>
+            <button class="dropdown-item" type="button"><a href="contact.php#Contact">Contact</a></button>
           </div>
         </div>
-      </article>
       <ul>
         <li><a href="">Home</a></li>
-        <li><a href="#itSkills">IT Skills</a></li>
-        <li><a href="#Professional">Professional</a></li>
-        <li><a href="#Portfolio">Portfolio</a></li>
-        <li><a href="">Contact</a></li>
+        <li><a href="index.php#itSkills">IT Skills</a></li>
+        <li><a href="index.php#Professional">Professional</a></li>
+        <li><a href="index.php#Portfolio">Portfolio</a></li>
+        <li><a href="contact.php#Contact">Contact</a></li>
       </ul>
     </nav>
     <header>
       <h1 id="prenom">AURELIEN</h1>
-      <h1 id="nom">MOJAK<span> .</span></h1>
+      <h1 id="nom">MOJAK<span>.</span></h1>
         <h2>UX/UI DESIGNER </h2>
         <h2><span>& </span> WEB DEVELOPER </h2>
         <img src="img/am.jpg" alt="photo am" height="100">

@@ -18,6 +18,10 @@ body {
   color: white;
 }
 
+header, main, footer{
+  color: white;
+}
+
 /****HEADER****/
 
 header {
@@ -76,9 +80,8 @@ header h1 {
 
 header p {
   font-size: 1rem;
-  margin-top: 8rem;
+  /*margin-top: 8rem;*/
 }
-
 #prenom {
   font-weight: bold;
 }
@@ -152,7 +155,11 @@ main div {
   background-position: center;
   background-repeat: no-repeat;
   margin-bottom: -7rem;
+  padding: 2rem;
+  padding-top: 4rem;
 }
+
+
 
 #Professional p {
   text-align: left;
@@ -174,6 +181,17 @@ div .btn-success{
   margin-bottom: 10px;
 }
 
+/*contact*/
+
+#contact{
+  margin-top: 15rem;
+}
+
+.form-control, .btn-info{
+  font-size: 0.7rem;
+  margin-bottom: 2rem;
+}
+
 /*footer*/
 
 footer{
@@ -185,19 +203,31 @@ footer{
 /**format desktop **/
 
 @media screen and (min-width:800px) {
-  body{
+  /*body{
     background-image: url(../img/pexels-photo-274192.jpeg);
     background-position: center;
     background-repeat: no-repeat;
+  }*/
+  #opacity{
+    background-color: #6F7A8A;
+    opacity: 0.7;
+  }
+  #bgi{
+    background-image: url(../img/pexels-photo-147633.jpeg);
+
   }
   header, main{
     width: 800px;
     text-align: center;
     margin: auto;
   }
+
   /*nav*/
   #logo2{
   margin-right: auto;
+  }
+  #logo1 {
+    margin-left: 20rem;
   }
 
   nav{
@@ -210,12 +240,9 @@ footer{
     align-items: center;
     list-style: none;
     margin: auto;
-    margin-right: 0.5rem;
-
+    margin-right: 20rem;
   }
-  nav ul li{
 
-  }
   nav ul li a{
     color : white;
     padding-left: 1rem;
@@ -223,12 +250,37 @@ footer{
   nav .dropdown{
     display: none;
   }
+/*header*/
+header h1{
+  font-size: 4rem;
+  text-align: left;
+
+}
+
+header h2{
+  font-size: 2rem;
+  text-align: left;
+}
+
+.pitch {
+  width: 600px;
+  background-color: #333B50;
+  display:flex;
+  margin: auto;
+  margin-top: 2rem;
+  padding : 2rem;
+}
 /*main*/
-  main{
+main div {
+  margin-top: 0rem;
+}
 
   }
   #itSkills {
-    background-image: none;
+    background-image: url(../img/bwlaptop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 25rem;
   }
   .progress-bar{
     display: flex;
@@ -238,7 +290,25 @@ footer{
   }
 
   #Professional {
-    background-image: none;
+    background-image: url(../img/pexels-photo-147633.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 8rem;
   }
-
+  #Portfolio{
+    background-image: url(../img/pexels-photo-274192.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    padding-top: 4rem;
+    margin-bottom: 2rem;
+    margin-top: 15rem;
+  }
+/*contact*/
+  #contact{
+    width: 800px;
+    margin: auto;
+    margin-bottom: 10rem;
+    margin-top: 10rem;
+  }
 }

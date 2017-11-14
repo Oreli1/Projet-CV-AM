@@ -22,6 +22,8 @@
 
   </head>
   <body>
+<div id="opacity">
+  <div id="bgi">
     <nav>
       <span id="logo1">@</span><span id="logo2">M</span>
         <div class="dropdown">
@@ -29,23 +31,23 @@
             <i class="fa fa-bars" aria-hidden="true"></i>
           </button>
           <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-            <button class="dropdown-item" type="button"><a href="#itSkills">IT Skills</a></button>
-            <button class="dropdown-item" type="button"><a href="#Professional">Professional</a></button>
-            <button class="dropdown-item" type="button"><a href="#Portfolio">Portfolio</a></button>
-            <button class="dropdown-item" type="button"><a href="#Contact">Contact</a></button>
+            <button class="dropdown-item" type="button"><a href="index.php#itSkills">IT Skills</a></button>
+            <button class="dropdown-item" type="button"><a href="index.php#Professional">Professional</a></button>
+            <button class="dropdown-item" type="button"><a href="index.php#Portfolio">Portfolio</a></button>
+            <button class="dropdown-item" type="button"><a href="contact.php#Contact">Contact</a></button>
           </div>
         </div>
       <ul>
         <li><a href="">Home</a></li>
-        <li><a href="#itSkills">IT Skills</a></li>
-        <li><a href="#Professional">Professional</a></li>
-        <li><a href="#Portfolio">Portfolio</a></li>
-        <li><a href="">Contact</a></li>
+        <li><a href="index.php#itSkills">IT Skills</a></li>
+        <li><a href="index.php#Professional">Professional</a></li>
+        <li><a href="index.php#Portfolio">Portfolio</a></li>
+        <li><a href="contact.php#Contact">Contact</a></li>
       </ul>
     </nav>
     <header>
       <h1 id="prenom">AURELIEN</h1>
-      <h1 id="nom">MOJAK<span> .</span></h1>
+      <h1 id="nom">MOJAK<span>.</span></h1>
         <h2>UX/UI DESIGNER </h2>
         <h2><span>& </span> WEB DEVELOPER </h2>
         <img src="img/am.jpg" alt="photo am" height="100">
@@ -89,25 +91,27 @@
       <div id="Professional">
         <h2>PROFESSIONAL</h2>
         <section id="xp1">
-          <p>Depuis <span>janvier 2017</span> : Développeur & Webdesigner chez Global Media Systems à Luxembourg</p>
-          <p>De <span>décembre 2007 à septembre 2017 </span>: Webshop Manager / Assistant commercial chez Global Sat à Mondorf</p>
-          <p>De <span>décembre 2006 à décembre 2007</span> : Responsable du site internet (www.jardinsdaromes.com) chez Brezilia à Thionville</p>
+          <p>From <span>january 2017</span> : Developer & Webdesigner for Global Media Systems Luxembourg</p>
+          <p>From <span>december 2007 to september 2017 </span>: Webshop Manager / Sales Assistant for Global Sat s.a. Mondorf</p>
+          <p>From <span>december 2006 to december 2007</span> : Website Manager (www.jardinsdaromes.com) for Bresilia at Thionville</p>
         </section>
 
       </div>
       <div id="Portfolio">
         <h2>PORTFOLIO</h2>
-        <button type="button" class="btn btn-success">DOWNLOAD</button>
-        <!--<a class="grouped_elements" rel="group1" href="img\book\Action-S5-Gear-fit.jpg" height="300" width="200"><img src="img\little\Action-S5-Gear-fit.jpg" alt=""/></a>
-        <a class="grouped_elements" rel="group1" href="img\book\color_is_everywhere.jpg"><img src="img\little\color_is_everywhere.jpg" alt=""/></a>
-        <a class="grouped_elements" rel="group1" href="img\book\De-Stock-161215.jpg"><img src="img\little\De-Stock-161215.jpg" alt=""/></a>-->
+        <button type="submit" class="btn btn-success">DOWNLOAD</button>
+        <!--<a class="grouped_elements" rel="group1" href="imgbookAction-S5-Gear-fit.jpg" height="300" width="200"><img src="imglittleAction-S5-Gear-fit.jpg" alt=""/></a>
+        <a class="grouped_elements" rel="group1" href="imgbookcolor_is_everywhere.jpg"><img src="imglittlecolor_is_everywhere.jpg" alt=""/></a>
+        <a class="grouped_elements" rel="group1" href="imgbookDe-Stock-161215.jpg"><img src="imglittleDe-Stock-161215.jpg" alt=""/></a>-->
 
       </div>
     </main>
-    <footer>
-      <p><i class="fa fa-copyright" aria-hidden="true"></i> <?php echo date('Y');?> | by @ Mojak</p>
-      <p><i class="fa fa-linkedin" aria-hidden="true"></i> <i class="fa fa-facebook" aria-hidden="true"></i></p>
-    </footer>
+      <footer>
+        <p><i class="fa fa-copyright" aria-hidden="true"></i> <?php echo date('Y');?> | by @ Mojak</p>
+        <p><i class="fa fa-linkedin" aria-hidden="true"></i> <i class="fa fa-facebook" aria-hidden="true"></i></p>
+      </footer>
+    </div>
+</div>
     <!--script-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
